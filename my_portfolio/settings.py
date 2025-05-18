@@ -139,6 +139,8 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': config('CLOUD_NAME'),
     'API_KEY': config('CLOUD_API_KEY'),
